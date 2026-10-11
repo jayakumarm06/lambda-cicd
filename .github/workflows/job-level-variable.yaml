@@ -8,13 +8,19 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CITY: vijayawada
-      TRAINER: jay
+      COUNTRY: India
     steps:
     - name: Step level example
 
       run: |
         echo "City is $CITY"
-        echo "Trainer is $TRAINER"
+        echo "Trainer is $COUNTRY"
 
     - name: Next step
-      run: echo "City is $CITY and Trainer is $TRAINER"
+      run: echo "City is $CITY and Trainer is $COUNTRY"
+
+  demo1:
+   runs-on: ubuntu-latest
+   steps:
+    - name: teststep
+      run: echo "Country is $COUNTRY and City is $CITY"
