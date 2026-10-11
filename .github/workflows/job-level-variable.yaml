@@ -7,7 +7,7 @@ jobs:
   demo:
     runs-on: ubuntu-latest
     env:
-      CITY: Hyderabad
+      CITY: vijayawada
       TRAINER: jay
     steps:
     - name: Step level example
