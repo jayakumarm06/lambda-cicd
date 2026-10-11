@@ -3,8 +3,8 @@ name: workflow Level Env Example
 on:
   workflow_dispatch:
 env:
-  BRAND: devosp
-  PLATFORM: Github
+    BRAND:devops
+    PLATFORM:Github
 jobs:
   job1:
     runs-on: ubuntu-latest
