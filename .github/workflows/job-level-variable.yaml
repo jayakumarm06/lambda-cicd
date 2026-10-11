@@ -14,10 +14,10 @@ jobs:
 
       run: |
         echo "City is $CITY"
-        echo "Trainer is $COUNTRY"
+        echo "Country is $COUNTRY"
 
     - name: Next step
-      run: echo "City is $CITY and Trainer is $COUNTRY"
+      run: echo "City is $CITY and Country is $COUNTRY"
 
   demo1:
    runs-on: ubuntu-latest
