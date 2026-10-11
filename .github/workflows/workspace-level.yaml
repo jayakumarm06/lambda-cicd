@@ -1,0 +1,21 @@
+name: workflow Level Env Example
+
+on:
+  workflow_dispatch:
+env:
+  BRAND: devosp
+  PLATFORM: Github
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Step in job1
+      run: echo"Brands is $BRAND"
+
+  job2:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Step in job2
+      run: echo"Platform is $PLATFORM"
