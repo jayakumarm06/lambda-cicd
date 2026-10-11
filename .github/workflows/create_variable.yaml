@@ -10,8 +10,8 @@ jobs:
     steps:
     - name: Step level example
       env:
-        CITY: Hyderabad
-        TRAINER: Prashanth
+        CITY: vijayawada
+        TRAINER: jay
       run: |
         echo "City is $CITY"
         echo "Trainer is $TRAINER"
