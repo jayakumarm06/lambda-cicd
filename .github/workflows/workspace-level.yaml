@@ -18,4 +18,4 @@ jobs:
 
     steps:
     - name: Step in job2
-      run: echo"Platform is $PLATFORM"
+      run: echo "Platform is $PLATFORM"
